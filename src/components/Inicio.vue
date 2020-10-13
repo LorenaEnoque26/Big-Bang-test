@@ -297,13 +297,18 @@ export default {
 				.banner-text {
 					text-align: center;
 					position: absolute;
-					top: 20%;
-					left: 50%;
+					top: 10%;
+					left: 40%;
+					h1 {
+						font-size: 15px;
+					}
 					p {
-						margin:0;
+						margin:5px;
+						font-size: 10px;
 					}
 					button {
 						padding: 5px 20px;
+						font-size: 5px;
 					}
 				}
 			}
@@ -313,16 +318,48 @@ export default {
 				justify-content: center;
 				align-items: center;
 				grid-row-gap: 20px;
-				.yoga > .yoga-text > .yoga-text-flex {
-					width: 70px;
+				.yoga > .yoga-text {
+					h1 {
+						font-size: 20px;
+					}
+					.yoga-text-flex {
+						width: 70px;
+						p {
+							font-size: 5px;
+						}
+					}
 				}
 				.grid-yoga-direita {
 					display: grid;
 					row-gap: 20px;
+					.podcast > .podcast-text {
+						h1 {
+							font-size: 20px;
+						}
+						p {
+							font-size: 10px;
+						}
+					}
 					.grid-yoga-direita-small {
 						display: grid;
 						grid-template-columns: 1fr 1fr;
-						gap: 20px;	
+						gap: 20px;
+						.curso > .curso-text {
+							h1 {
+								font-size: 20px;
+							}
+							p {
+								font-size: 10px;
+							}
+						}
+						.produto > .produto-text {
+							h1 {
+								font-size: 20px;
+							}
+							p {
+								font-size: 10px;
+							}
+						}		
 					}
 				}
 			}

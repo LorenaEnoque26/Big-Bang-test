@@ -47,6 +47,7 @@ export default {
 .container {
 	text-align: center;
 	padding-bottom: 100px;
+	padding-top: 50px;
 }
 .grid {
 	text-align: left;

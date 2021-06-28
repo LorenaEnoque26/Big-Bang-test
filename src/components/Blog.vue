@@ -227,7 +227,7 @@ export default {
 				font-size: 15px;
 			}
 			.termo {
-				font-size: 9px;
+				font-size: 20px;
 			}
 		}
 	}
